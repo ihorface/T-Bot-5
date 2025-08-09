@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: spot-executor
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /docs
